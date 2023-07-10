@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5c65468667.js" crossorigin="anonymous"></script>
+    <style>
+        body
+        {
+            background-color:#F7F7F7;
+        }
+        .page-1
+        {
+            background-color: #FFFFFF;
+        }
+        .navbar-nav
+        {
+            list-style: none;
+            display: flex;
+        }
+        .nav-item
+        {
+            display: flex;
+            margin-left: 20px;
+            color: black;
+            font-size: 12px;
+        }
+        .search-option
+        {
+            height: 80px;
+            width: 300px;
+            margin: 50px 150px;
+            background-color: #FFFFFF;
+        }
+        .button1
+        {
+            background-color:#269FB7;
+            border: 2px solid #269FB7;
+            color: white;
+            padding: 5.5px 5.5px;
+        }
+        .button1:hover{
+            border: 2px black solid;
+            background-color: black;
+        }
+        .search-products
+        {
+            border: 0.3px solid rgb(33, 33, 33);
+            padding: 7px 20px 7px 2px;
+        }
+        .search-bar{
+            padding: 22px 20px;
+        }
+        .product-cards
+        {
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .product
+        {
+            margin-left: 30px;
+        }
+        .product-page
+        {
+            background-color: blue;
+            height: 900px;
+            width: 700px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="page-1" >    
+        <img src="/images/logo.png" height="30px" style="margin-left: 520px ; margin-top: 18px;">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link"  style="margin-left: 380px;">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  style="margin-right:20px ;">CONTACT</a>
+                        </li>
+                    </ul>
+                    <i class="fa-solid fa-bag-shopping fa-lg" style="color: #fafcff;"></i>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="search-option">
+    <div class="search-bar"> 
+            <input type="text" class="search-products" placeholder="search-products....">
+            <button type="button" class="button1"> > </button>
+    </div>
+    </div>
+    
+    <div class="product-page">
+        <p>Home/Shop</p>
+        <p>Showing all 8 results</p>
+        <div class="product-cards">
+            <div class="product" >
+                <img src="/images/given-skin-toner-300x300.jpeg" height="170px" width="170px">
+                <p>Paste masks</p>
+                <h6>Anti-aging Skin Toner</h6>
+                <p>$ 40.00</p>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>  
+            </div>
+            <div class="product">
+                <img src="/images/coco-body-oil-300x300.jpeg" height="170px" width="170px">
+                <p>Feminine Deodorants</p>
+                <h6>Coco Body oil</h6>
+                <p>$ 60.00</p>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+            </div>
+            <div class="product">
+                <img src="/images/daily-moisturizer-300x300.jpeg" height="170px" width="170px">
+                <p>Skin Fresheners</p>
+                <h6>Daily Moisturiser</h6>
+                <p>$ 45.00</p>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+            </div>
+            <div class="product">
+                <img src="/images/deep-cleanser-300x300.jpeg" height="170px" width="170px">
+                <p>Skin Milk</p>
+                <h6>Deep cleanser</h6>
+                <p>$ 40.00</p>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+            </div>
+            <div class="product">
+                <img src="/images/night-care-cream-300x300.jpeg" height="170px" width="170px">
+                <p>Balms</p>
+                <h6>Night care creams</h6>
+                <p>$ 25.00</p>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+            </div>
+            <div class="product">
+                <img src="/images/rose-essential-oil-300x300.jpeg" height="200px" width="200px">
+                <p>Face Cream</p>
+                <h6>Rose Assential Oil</h6>
+                <p>$ 30.00</p>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+            </div>
+            <div class="product">
+                <img src="/images/shaving-kit-300x300.jpeg" height="200px" width="200px">
+                <p>Anti-aging Cream</p>
+                <h6>Shaving kit</h6>
+                <p>$ 55.00</p>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+            </div>
+            <div class="product">
+                <img src="/images/beauty-cream-300x300.jpeg" height="200px" width="200px">
+                <p>Skin Toner</p>
+                <h6>Skin Whitening Toner</h6>
+                <p>$ 40.00</p>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+                <i class="fa-regular fa-star fa-xs"></i>
+            </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+     
+</body>
+    
+
+</html>
