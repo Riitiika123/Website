@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5c65468667.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-color: #F7F7F7;
+        }
+
+        .page-1 {
+            background-image: url(/images/bg-10-free-img.jpeg);
+            height: 300px;
+            background-size: cover;
+        }
+
+        .page-1Text {
+            color: white;
+            opacity: 100%;
+            background-color: #418194;
+            opacity: 0.8;
+            height: 300px;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-item {
+            display: flex;
+            margin-left: 20px;
+            color: white;
+            font-size: 12px;
+        }
+
+        .nav-link {
+            color: white;
+        }
+
+        .contact-box {
+            height: 650px;
+            width: 600px;
+            background-color: white;
+            margin-top: 100px;
+            margin-left: 300px;
+            position: absolute;
+            z-index: 2;
+        }
+
+        .send {
+            border-radius: 0%;
+            color: white;
+            background-color: #269FB7;
+            border: 2px solid #269FB7;
+            font-size: 12px;
+            padding: 6px 25px;
+        }
+
+        .send:hover {
+            border: black solid 2px;
+            background-color: black;
+        }
+
+        input[required]+label:after {
+            content: '*';
+            color: red;
+        }
+
+        .bg-img {
+            position: absolute;
+            z-index: 1;
+            float: right;
+            margin-left: 565px;
+        }
+
+        .contact-us {
+            background-color: white;
+            height: 300px;
+            width: 500px;
+            margin-top: 1000px;
+            margin-left: 200px;
+
+        }
+
+        .icon{
+            margin-top: 20px;
+            margin-left: 40px;
+
+        }
+
+        .address {
+            float: right;
+            margin-right: 240px;
+            margin-top: -260px;
+        }
+
+        .page-8 {
+            background-color: black;
+            height: 320px;
+            color: white;
+            display: flex;
+            margin-top: 100px;
+        }
+
+        .page-8 p {
+            font-size: 13px;
+        }
+
+        .page8-text {
+            margin: 80px 150px;
+        }
+
+        .final-logo {
+            margin-top: 80px;
+            margin-right: 30px;
+        }
+
+        .icons {
+            margin-top: 110px;
+            display: flex;
+            justify-content: space-between;
+        }
+        input[type="text"]:hover
+        {
+            border: 1px black solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-1">
+        <div class="page-1Text">
+            <img src="/images/white-logo-150x33.png" height="30px" style="margin-left: 550px ; margin-top: 18px;">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html" style="margin-left: 380px" ;>HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">SHOP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Testimonials.html">TESTIMONIALS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html" style="margin-right:20px ;">CONTACT</a>
+                            </li>
+                        </ul>
+                        <i class="fa-solid fa-bag-shopping fa-lg" style="color: #fafcff;"></i>
+                    </div>
+                </div>
+            </nav>
+            <h1 style="font-size: 80px;font-family: 'Montserrat',sans-serif; margin-top: 60px ;text-align: center;">
+                Contact</h1>
+        </div>
+    </div>
+    <div class="bg-img">
+        <img src="/images/bg-10-free-img.jpeg" height="850px" width="700px">
+    </div>
+
+    <div class="contact-box">
+        <p style="color: #269FB7; justify-content: center;display: flex; padding-top: 50px;">Message Us</p>
+        <h3 style="justify-content: center; display: flex;">Get in Touch</h3>
+        <form style="margin-left: 50px;">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" style="padding: 7px 25px;" placeholder="first"> <input type="text"
+                style="padding: 7px 25px;" placeholder="last">
+            <br><br>
+            <label id="Email">Email</label>
+            <br>
+            <input for="email" style="padding: 7px 150px;" type="text" required>
+            <br><br>
+            <label for="Message">Message</label><br>
+            <textarea name="Message" rows="7" cols="53"></textarea>
+            <br><br>
+            <input class="send" type="submit" value="SEND">
+        </form>
+    </div>
+
+    <div class="contact-us">
+        <h2 style="margin-left: 40px;">Contact Us</h2>
+        <p style="font-size: 15px;color: #565656; margin-top: 30px;margin-left: 40px;">Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit<br> eum minima officia minus, laudantium optio maiores nostr<br> at eveniet
+            beatae veniam veritatis </p>
+        <h5 style="margin-left: 40px;margin-top: 70px;">Follow Us</h5>
+        <div class="icon">
+            <i class="fa-brands fa-youtube fa-xs" style="color: #269FB7;"></i>
+            <i class="fa-brands fa-instagram fa-xs" style="color:#269FB7;margin-left: 20px;"></i>
+            <i class="fa-brands fa-facebook fa-xs" style="color: #269FB7;margin-left: 20px;"></i>
+            <i class="fa-brands fa-twitter fa-xs" style="color: #269FB7;margin-left: 20px;"></i>
+        </div>
+    </div>
+
+    <div class="address">
+        <p><i class="fa-solid fa-location-dot" style="color: #269FB7;"></i>123 Fifth Avenue, New York, NY 10160</p>
+        <p><i class="fa-solid fa-phone" style="color: #269FB7;"></i>+ 1 234 567 890</P>
+        <p> <i class="fa-solid fa-clock" style="color: #269FB7;"></i>Timing: 9am -8pm</p>
+    </div>
+
+
+    <div class="page-8">
+        <div class="page8-text">
+            <h5>Contact Details</h5>
+            <p>929-242-6868
+                <br>contact@info.com
+                <br>123 Fifth Avenue, New York, NY 10160
+            </p>
+            <p style="margin-top: 110px;">Copyright © 2023 Cosmetics Store | Powered by Cosmetics Store</p>
+        </div>
+        <div class="final-logo">
+            <img src="/images/white-logo-150x33.png">
+        </div>
+        <div class="page8-text">
+            <h5>Quick Links</h5>
+            <p>Shipping & Returns
+                <br>Contact
+                <br>Customer Service
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-youtube fa-xs" style="color: #f5f7f9;"></i>
+                <i class="fa-brands fa-instagram fa-xs" style="color: #fafcff;"></i>
+                <i class="fa-brands fa-facebook fa-xs" style="color: #fafcff;"></i>
+                <i class="fa-brands fa-twitter fa-xs" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
